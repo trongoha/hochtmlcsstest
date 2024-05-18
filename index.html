@@ -4,8 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tự học</title>
+    <style>
+        h1,td{
+            color: blue;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="index.html">Home</a>
     <h1>Tự học </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Áo phông</td>
+                <td>100.000 VNĐ</td>
+            </tr>
+            <tr>
+                <td>Quần Jean</td>
+                <td>200.000 VNĐ</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Tổng cộng</td>
+                <td>300.000 VNĐ</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h1 style="color: yellowgreen;">Bảng chất liệu product</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th colspan="2">Mô tả</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Áo phông</td>
+                <td>Chất liệu</td>
+                <td>Bạt</td>
+            </tr>
+            <tr>
+                <td>Kích thước</td>
+                <td>M,X,XL</td>
+            </tr>
+            <tr>
+                <td>Quần Jean</td>
+                <td colspan="2">Quần Jean cao cấp, dễ phối đồ</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Giá sản phẩm</th>
+                <th>Số lượng</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Áo thun nam</td>
+                <td>100.000 VNĐ</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Quần jean nữ</td>
+                <td>200.000 VNĐ</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Giày thể thao</td>
+                <td>300.000 VNĐ</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Remark (Nhận xét)</td>
+                <td colspan="2">Chỉ thống kê sản phẩm trong kho</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
