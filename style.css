@@ -1,0 +1,8 @@
+h1{
+    font-size: 500%;
+    color: brown;
+}
+h1,td{
+    color: blue;
+    font-style: italic;
+}
